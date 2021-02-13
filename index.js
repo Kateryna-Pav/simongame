@@ -39,7 +39,7 @@ function checkAnswer(currentLevel) {
     } else {
 
         console.log("wrong");
-        var audio = new Audio("wrong.mp3");
+        var audio = new Audio("wrong1.mp3");
         audio.play();
         $("body").addClass("game-over")
         setTimeout(function () {
